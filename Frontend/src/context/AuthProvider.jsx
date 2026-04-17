@@ -12,9 +12,7 @@ const AuthProvider = ({ children }) => {
    setUserData({employees,admin})
   },[])
   
-
   return <div>
-
     <AuthContext.Provider  value={userData} >
       {children}
     </AuthContext.Provider>
